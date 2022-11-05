@@ -7,10 +7,10 @@ public class BestLoanRates {
     public static void main(String[] args )
     {
         Scanner scanner = new Scanner(System.in);  
-        System.out.println("Enter your Name");
+        System.out.println("Enter your name");
         String name = scanner.nextLine();
         System.out.println("Hello " + name);
-        System.out.println("Enter the loan teerm (in years)");
+        System.out.println("Enter the loan term (in years)");
         int loanTermInYears = scanner.nextInt();
         float bestRate=getRates(loanTermInYears);
         if(bestRate == 0.0f){
